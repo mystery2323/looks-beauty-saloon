@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en-PK" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <!-- SEO Meta Tags -->
+    <title>LOOKS Beauty Salon | Best Bridal Makeup & Spa in DHA Multan</title>
+    <meta name="description" content="Visit LOOKS Beauty Salon in DHA Multan for premium bridal makeup, party makeup, hydra facials, hair treatments, and spa services. Book your appointment today.">
+    <meta name="keywords" content="Beauty Salon DHA Multan, Best Parlor in Multan, Bridal Makeup Multan, Party Makeup, Hydra Facial, Keratin Treatment, LOOKS Salon">
+    <meta name="author" content="LOOKS Beauty Salon">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="business.business">
+    <meta property="og:url" content="https://looksbeautysalon.pk/">
+    <meta property="og:title" content="LOOKS Beauty Salon | Luxury Experience in DHA Multan">
+    <meta property="og:description" content="Experience luxury beauty services. Bridal experts, skin specialists, and hair couture in the heart of DHA Multan.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1560066984-138dadb4c035?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80">
+
+    <!-- Fonts: Playfair Display (Serif) & Lato (Sans) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'brand-rose': '#D4AF37', /* Gold Accent */
+                        'brand-pink': '#EBCBCB', /* Soft Pink */
+                        'brand-nude': '#F5E6E0', /* Background Nude */
+                        'brand-dark': '#1A1A1A', /* Rich Black */
+                        'brand-text': '#4A4A4A',
+                    },
+                    fontFamily: {
+                        serif: ['"Playfair Display"', 'serif'],
+                        sans: ['"Lato"', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Custom Styles -->
+    <style>
+        .glass-card {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.5);
+        }
+        .hero-overlay {
+            background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6));
+        }
+        .text-shadow {
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        /* Hide scrollbar for gallery */
+        .hide-scroll::-webkit-scrollbar {
+            display: none;
+        }
+        .hide-scroll {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+
+    <!-- Schema Markup for Local Business -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BeautySalon",
+      "name": "LOOKS Beauty Salon",
+      "image": "https://images.unsplash.com/photo-1560066984-138dadb4c035",
+      "telephone": "0300-1514444",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Shop # 12, Commercial Arcade, DHA Multan",
+        "addressLocality": "Multan",
+        "addressRegion": "Punjab",
+        "postalCode": "60000",
+        "addressCountry": "PK"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 30.1575,
+        "longitude": 71.5249
+      },
+      "url": "https://looksbeautysalon.pk",
+      "priceRange": "₨₨",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+          "opens": "11:00",
+          "closes": "21:00"
+        }
+      ]
+    }
+    </script>
+</head>
+<body class="bg-brand-nude font-sans text-brand-text antialiased overflow-x-hidden">
+
+    <!-- WhatsApp Float -->
+    <a href="https://wa.me/923001514444?text=Hi%20LOOKS%20Salon,%20I%20would%20like%20to%20book%20an%20appointment." target="_blank" class="fixed bottom-6 right-6 z-50 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition-transform transform hover:scale-110 animate-bounce">
+        <i class="fab fa-whatsapp text-3xl"></i>
+    </a>
+
+    <!-- Navigation -->
+    <nav id="navbar" class="fixed w-full z-40 transition-all duration-300 bg-white/95 backdrop-blur-md shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <!-- Logo -->
+                <div class="flex-shrink-0 flex items-center">
+                    <a href="#" class="font-serif text-3xl font-bold tracking-wider text-brand-dark">
+                        LOOKS <span class="text-brand-rose text-lg block -mt-1 tracking-widest font-sans uppercase">Beauty Salon</span>
+                    </a>
+                </div>
+
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#home" class="text-brand-dark hover:text-brand-rose font-medium transition">Home</a>
+                    <a href="#about" class="text-brand-dark hover:text-brand-rose font-medium transition">About</a>
+                    <a href="#services" class="text-brand-dark hover:text-brand-rose font-medium transition">Services</a>
+                    <a href="#bridal" class="text-brand-dark hover:text-brand-rose font-medium transition">Bridal</a>
+                    <a href="#gallery" class="text-brand-dark hover:text-brand-rose font-medium transition">Gallery</a>
+                    <a href="#contact" class="px-6 py-2 bg-brand-dark text-white font-medium rounded-none hover:bg-brand-rose transition duration-300">Book Now</a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-btn" class="text-brand-dark hover:text-brand-rose focus:outline-none">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu Panel -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100 absolute w-full">
+            <div class="px-4 pt-2 pb-6 space-y-2 text-center">
+                <a href="#home" class="block px-3 py-2 text-brand-dark hover:bg-brand-nude font-medium">Home</a>
+                <a href="#about" class="block px-3 py-2 text-brand-dark hover:bg-brand-nude font-medium">About</a>
+                <a href="#services" class="block px-3 py-2 text-brand-dark hover:bg-brand-nude font-medium">Services</a>
+                <a href="#bridal" class="block px-3 py-2 text-brand-dark hover:bg-brand-nude font-medium">Bridal Studio</a>
+                <a href="#gallery" class="block px-3 py-2 text-brand-dark hover:bg-brand-nude font-medium">Gallery</a>
+                <a href="#contact" class="block px-3 py-2 mt-4 bg-brand-rose text-white font-medium rounded">Book Appointment</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative h-screen flex items-center justify-center overflow-hidden">
+        <!-- Background Image -->
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1522337660859-02fbefca4702?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" alt="Luxury Salon Interior" class="w-full h-full object-cover">
+            <div class="absolute inset-0 hero-overlay"></div>
+        </div>
+
+        <div class="relative z-10 text-center px-4 max-w-4xl mx-auto mt-16">
+            <p class="text-brand-rose tracking-[0.3em] uppercase mb-4 font-semibold text-sm md:text-base animate-fade-in-up">Welcome to DHA Multan's Finest</p>
+            <h1 class="font-serif text-5xl md:text-7xl text-white font-bold mb-6 text-shadow leading-tight">
+                Redefine Your <br><span class="italic font-light text-brand-pink">Elegance</span>
+            </h1>
+            <p class="text-gray-200 text-lg md:text-xl mb-10 font-light max-w-2xl mx-auto">
+                Experience premium artistry in bridal makeup, hair couture, and skin rejuvenation. Where luxury meets expertise.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#contact" class="px-8 py-4 bg-brand-rose text-white font-semibold rounded-none hover:bg-white hover:text-brand-dark transition duration-300 border border-brand-rose">
+                    Book Appointment
+                </a>
+                <a href="#services" class="px-8 py-4 bg-transparent border border-white text-white font-semibold rounded-none hover:bg-white hover:text-brand-dark transition duration-300">
+                    Explore Services
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div class="relative">
+                    <div class="absolute -top-4 -left-4 w-24 h-24 border-t-4 border-l-4 border-brand-rose"></div>
+                    <img src="https://images.unsplash.com/photo-1633681926022-84c23e8cb2d6?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="LOOKS Salon Interior" class="w-full h-[500px] object-cover shadow-2xl">
+                    <div class="absolute -bottom-4 -right-4 w-24 h-24 border-b-4 border-r-4 border-brand-rose"></div>
+                </div>
+                <div>
+                    <h2 class="font-serif text-4xl text-brand-dark font-bold mb-6">More Than Just a Salon,<br> It's an Experience.</h2>
+                    <div class="w-20 h-1 bg-brand-rose mb-8"></div>
+                    <p class="text-gray-600 mb-6 leading-relaxed">
+                        Located in the prestigious <strong>Commercial Arcade of DHA Multan</strong>, LOOKS Beauty Salon sets the standard for luxury and hygiene. We understand that beauty is personal. Our team of certified dermatologists and senior makeup artists are dedicated to enhancing your natural features with the world's finest products.
+                    </p>
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-center text-gray-700">
+                            <i class="fas fa-check text-brand-rose mr-3"></i> Premium International Brands (MAC, Huda, NARS)
+                        </li>
+                        <li class="flex items-center text-gray-700">
+                            <i class="fas fa-check text-brand-rose mr-3"></i> 100% Hygienic & Sterilized Tools
+                        </li>
+                        <li class="flex items-center text-gray-700">
+                            <i class="fas fa-check text-brand-rose mr-3"></i> Private Bridal Suites
+                        </li>
+                        <li class="flex items-center text-gray-700">
+                            <i class="fas fa-check text-brand-rose mr-3"></i> Certified & Trained Female Staff
+                        </li>
+                    </ul>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/1200px-Google_%22G%22_logo.svg.png" class="w-6 inline-block mr-2" alt="Google">
+                    <span class="text-sm font-bold text-gray-800">4.9/5 Stars on Google Reviews</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-brand-nude/50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <span class="text-brand-rose uppercase tracking-widest font-semibold text-sm">Our Expertise</span>
+            <h2 class="font-serif text-4xl text-brand-dark font-bold mb-12 mt-2">Curated Beauty Services</h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div class="bg-white p-8 shadow-lg hover:shadow-2xl transition duration-300 group">
+                    <div class="w-16 h-16 bg-brand-nude rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-brand-rose transition">
+                        <i class="fas fa-cut text-2xl text-brand-dark group-hover:text-white"></i>
+                    </div>
+                    <h3 class="font-serif text-xl font-bold mb-3">Hair Couture</h3>
+                    <p class="text-gray-600 text-sm mb-4">Expert cuts, Balayage coloring, Keratin treatments, and Rebounding tailored to your hair texture.</p>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="bg-white p-8 shadow-lg hover:shadow-2xl transition duration-300 group">
+                    <div class="w-16 h-16 bg-brand-nude rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-brand-rose transition">
+                        <i class="fas fa-spa text-2xl text-brand-dark group-hover:text-white"></i>
+                    </div>
+                    <h3 class="font-serif text-xl font-bold mb-3">Skin & HydraFacial</h3>
+                    <p class="text-gray-600 text-sm mb-4">Advanced Janssen and HydraFacials to deep cleanse, exfoliate, and hydrate for that glass-skin glow.</p>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="bg-white p-8 shadow-lg hover:shadow-2xl transition duration-300 group">
+                    <div class="w-16 h-16 bg-brand-nude rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-brand-rose transition">
+                        <i class="fas fa-magic text-2xl text-brand-dark group-hover:text-white"></i>
+                    </div>
+                    <h3 class="font-serif text-xl font-bold mb-3">Party Makeup</h3>
+                    <p class="text-gray-600 text-sm mb-4">Subtle glam or bold dramatic looks for parties, dinners, and corporate events. Long-lasting finish.</p>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="bg-white p-8 shadow-lg hover:shadow-2xl transition duration-300 group">
+                    <div class="w-16 h-16 bg-brand-nude rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-brand-rose transition">
+                        <i class="fas fa-hand-sparkles text-2xl text-brand-dark group-hover:text-white"></i>
+                    </div>
+                    <h3 class="font-serif text-xl font-bold mb-3">Nail Artistry</h3>
+                    <p class="text-gray-600 text-sm mb-4">Manicures, Pedicures, Acrylics, and Gel polish in a relaxing spa environment.</p>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="bg-white p-8 shadow-lg hover:shadow-2xl transition duration-300 group">
+                    <div class="w-16 h-16 bg-brand-nude rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-brand-rose transition">
+                        <i class="fas fa-paint-brush text-2xl text-brand-dark group-hover:text-white"></i>
+                    </div>
+                    <h3 class="font-serif text-xl font-bold mb-3">Mehndi Design</h3>
+                    <p class="text-gray-600 text-sm mb-4">Intricate bridal and guest Mehndi designs by specialist artists.</p>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="bg-white p-8 shadow-lg hover:shadow-2xl transition duration-300 group">
+                    <div class="w-16 h-16 bg-brand-nude rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-brand-rose transition">
+                        <i class="fas fa-gem text-2xl text-brand-dark group-hover:text-white"></i>
+                    </div>
+                    <h3 class="font-serif text-xl font-bold mb-3">Waxing & Threading</h3>
+                    <p class="text-gray-600 text-sm mb-4">Gentle, hygienic hair removal services using high-quality wax for sensitive skin.</p>
+                </div>
+            </div>
+            
+            <div class="mt-12">
+                <a href="#contact" class="text-brand-dark font-bold border-b-2 border-brand-rose pb-1 hover:text-brand-rose transition">View Full Price List &rarr;</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bridal Feature Section -->
+    <section id="bridal" class="py-20 bg-brand-dark text-white relative">
+        <div class="absolute inset-0 opacity-20 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                <div>
+                    <span class="text-brand-rose tracking-widest uppercase font-semibold">The Big Day</span>
+                    <h2 class="font-serif text-5xl font-bold mb-6 mt-2">Signature Bridal Makeover</h2>
+                    <p class="text-gray-300 mb-8 leading-relaxed text-lg">
+                        Your wedding day is a once-in-a-lifetime moment. At LOOKS DHA Multan, we specialize in creating the perfect traditional or contemporary bridal look. From the Signature Walima Glow to the Royal Barat Transformation.
+                    </p>
+                    
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-10">
+                        <div class="border border-gray-700 p-6 bg-white/5 backdrop-blur-sm">
+                            <h4 class="font-serif text-xl text-brand-rose mb-2">Barat Package</h4>
+                            <p class="text-sm text-gray-400">Includes Heavy Glam Makeup, Hair Styling, Jewelry Setting, Dupatta Setting, and Nail Color.</p>
+                        </div>
+                        <div class="border border-gray-700 p-6 bg-white/5 backdrop-blur-sm">
+                            <h4 class="font-serif text-xl text-brand-rose mb-2">Walima Package</h4>
+                            <p class="text-sm text-gray-400">Includes Soft Glow Makeup, Contemporary Hair, Skin Prep, and Styling.</p>
+                        </div>
+                    </div>
+
+                    <a href="https://wa.me/923001514444?text=I%20am%20interested%20in%20Bridal%20Consultation" class="inline-block px-8 py-3 bg-brand-rose text-white font-semibold rounded hover:bg-white hover:text-brand-dark transition duration-300">
+                        Get Free Consultation
+                    </a>
+                </div>
+                <div class="grid grid-cols-2 gap-4">
+                    <img src="https://images.unsplash.com/photo-1595959183082-7bce70752538?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Pakistani Bridal Makeup" class="rounded-lg shadow-lg transform translate-y-8">
+                    <img src="https://images.unsplash.com/photo-1596704017329-848cac43a3d8?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Bridal Jewelry Setting" class="rounded-lg shadow-lg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center mb-12">
+            <h2 class="font-serif text-4xl text-brand-dark font-bold">Our Portfolio</h2>
+            <p class="text-gray-500 mt-2">Real Brides. Real Clients. Real Results.</p>
+        </div>
+
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-1 md:gap-4 px-2 md:px-0">
+            <!-- Gallery Item 1 -->
+            <div class="group relative overflow-hidden aspect-square cursor-pointer" onclick="openLightbox(this)">
+                <img src="https://images.unsplash.com/photo-1487412947132-26c244974994?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Gallery 1" class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
+                    <i class="fas fa-plus text-white text-3xl"></i>
+                </div>
+            </div>
+            <!-- Gallery Item 2 -->
+            <div class="group relative overflow-hidden aspect-square cursor-pointer" onclick="openLightbox(this)">
+                <img src="https://images.unsplash.com/photo-1522337360705-8754d3577563?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Gallery 2" class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
+                    <i class="fas fa-plus text-white text-3xl"></i>
+                </div>
+            </div>
+            <!-- Gallery Item 3 -->
+            <div class="group relative overflow-hidden aspect-square cursor-pointer" onclick="openLightbox(this)">
+                <img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Gallery 3" class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
+                    <i class="fas fa-plus text-white text-3xl"></i>
+                </div>
+            </div>
+            <!-- Gallery Item 4 -->
+            <div class="group relative overflow-hidden aspect-square cursor-pointer" onclick="openLightbox(this)">
+                <img src="https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Gallery 4" class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
+                    <i class="fas fa-plus text-white text-3xl"></i>
+                </div>
+            </div>
+            <!-- Gallery Item 5 -->
+            <div class="group relative overflow-hidden aspect-square cursor-pointer" onclick="openLightbox(this)">
+                <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Gallery 5" class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
+                    <i class="fas fa-plus text-white text-3xl"></i>
+                </div>
+            </div>
+            <!-- Gallery Item 6 -->
+            <div class="group relative overflow-hidden aspect-square cursor-pointer" onclick="openLightbox(this)">
+                <img src="https://images.unsplash.com/photo-1629837926210-911295e8fb86?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Gallery 6" class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
+                    <i class="fas fa-plus text-white text-3xl"></i>
+                </div>
+            </div>
+            <!-- Gallery Item 7 -->
+            <div class="group relative overflow-hidden aspect-square cursor-pointer" onclick="openLightbox(this)">
+                <img src="https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Gallery 7" class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
+                    <i class="fas fa-plus text-white text-3xl"></i>
+                </div>
+            </div>
+            <!-- Gallery Item 8 -->
+            <div class="group relative overflow-hidden aspect-square cursor-pointer" onclick="openLightbox(this)">
+                <img src="https://images.unsplash.com/photo-1596462502278-27bfdd403348?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Gallery 8" class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
+                    <i class="fas fa-plus text-white text-3xl"></i>
+                </div>
+            </div>
+        </div>
+        
+        <div class="text-center mt-8">
+            <a href="https://instagram.com" class="inline-flex items-center text-brand-dark font-semibold hover:text-brand-rose transition">
+                <i class="fab fa-instagram mr-2"></i> Follow us on Instagram
+            </a>
+        </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="fixed inset-0 z-[60] bg-black/90 hidden flex items-center justify-center p-4">
+        <button onclick="closeLightbox()" class="absolute top-6 right-6 text-white hover:text-brand-rose transition focus:outline-none">
+            <i class="fas fa-times text-4xl"></i>
+        </button>
+        <img id="lightbox-img" src="" class="max-h-[90vh] max-w-full rounded shadow-2xl">
+    </div>
+
+    <!-- Pricing Packages -->
+    <section id="packages" class="py-20 bg-brand-nude">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="font-serif text-4xl text-brand-dark font-bold">Featured Packages</h2>
+                <p class="text-gray-600 mt-2">Best value services combined for you</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Package 1 -->
+                <div class="bg-white rounded-lg p-8 shadow-md hover:shadow-xl transition transform hover:-translate-y-2 border-t-4 border-gray-300">
+                    <h3 class="font-serif text-2xl font-bold mb-2">Glow Up</h3>
+                    <p class="text-brand-rose font-bold text-lg mb-6">HydraFacial + Mani/Pedi</p>
+                    <ul class="space-y-3 mb-8 text-gray-600 text-sm">
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Deep Cleansing HydraFacial</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Classic Manicure</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Classic Pedicure</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Upper Lip & Eyebrow Threading</li>
+                    </ul>
+                    <a href="#contact" class="block w-full text-center py-3 border border-brand-dark text-brand-dark hover:bg-brand-dark hover:text-white transition rounded">Book This Package</a>
+                </div>
+
+                <!-- Package 2 -->
+                <div class="bg-white rounded-lg p-8 shadow-xl relative transform md:-translate-y-4 border-t-4 border-brand-rose">
+                    <div class="absolute top-0 right-0 bg-brand-rose text-white text-xs px-3 py-1 font-bold uppercase rounded-bl">Most Popular</div>
+                    <h3 class="font-serif text-2xl font-bold mb-2">Party Ready</h3>
+                    <p class="text-brand-rose font-bold text-lg mb-6">Makeup + Hair + Nails</p>
+                    <ul class="space-y-3 mb-8 text-gray-600 text-sm">
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Soft Glam Party Makeup</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Blow Dry or Curls</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Gel Nail Polish Application</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Lashes Included</li>
+                    </ul>
+                    <a href="#contact" class="block w-full text-center py-3 bg-brand-rose text-white hover:bg-brand-dark transition rounded font-semibold">Book This Package</a>
+                </div>
+
+                <!-- Package 3 -->
+                <div class="bg-white rounded-lg p-8 shadow-md hover:shadow-xl transition transform hover:-translate-y-2 border-t-4 border-gray-300">
+                    <h3 class="font-serif text-2xl font-bold mb-2">Hair Rehab</h3>
+                    <p class="text-brand-rose font-bold text-lg mb-6">Keratin + Cut</p>
+                    <ul class="space-y-3 mb-8 text-gray-600 text-sm">
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Professional Hair Cut</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Keratin Treatment (Shoulder Length)</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Protein Wash</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Styling</li>
+                    </ul>
+                    <a href="#contact" class="block w-full text-center py-3 border border-brand-dark text-brand-dark hover:bg-brand-dark hover:text-white transition rounded">Book This Package</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Slider -->
+    <section class="py-20 bg-white overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="font-serif text-3xl md:text-4xl text-center font-bold mb-12">Client Love</h2>
+            
+            <div class="relative w-full overflow-hidden" id="testimonial-container">
+                <div class="flex transition-transform duration-500 ease-in-out" id="testimonial-track">
+                    <!-- Review 1 -->
+                    <div class="w-full md:w-1/2 flex-shrink-0 px-4">
+                        <div class="bg-gray-50 p-8 rounded-lg border border-gray-100 h-full">
+                            <div class="flex text-brand-rose mb-4">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
+                            <p class="text-gray-600 italic mb-6">"Got my Valima makeup done from here. It was exactly how I wanted—soft, glowy, and elegant. The staff was so cooperative. Highly recommended!"</p>
+                            <div class="font-bold text-brand-dark">- Ayesha Khan, DHA Multan</div>
+                        </div>
+                    </div>
+                    <!-- Review 2 -->
+                    <div class="w-full md:w-1/2 flex-shrink-0 px-4">
+                        <div class="bg-gray-50 p-8 rounded-lg border border-gray-100 h-full">
+                            <div class="flex text-brand-rose mb-4">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
+                            <p class="text-gray-600 italic mb-6">"Best salon in Multan for HydraFacial. The environment is so clean and relaxing. Felt like a queen!"</p>
+                            <div class="font-bold text-brand-dark">- Fatima Zara</div>
+                        </div>
+                    </div>
+                     <!-- Review 3 -->
+                     <div class="w-full md:w-1/2 flex-shrink-0 px-4">
+                        <div class="bg-gray-50 p-8 rounded-lg border border-gray-100 h-full">
+                            <div class="flex text-brand-rose mb-4">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
+                            <p class="text-gray-600 italic mb-6">"Their hair services are top notch. I got a balayage done and the color blending is perfection."</p>
+                            <div class="font-bold text-brand-dark">- Sana Ahmed</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Controls -->
+                <div class="flex justify-center mt-8 space-x-4">
+                    <button onclick="prevSlide()" class="p-2 bg-gray-200 rounded-full hover:bg-brand-rose hover:text-white transition"><i class="fas fa-chevron-left"></i></button>
+                    <button onclick="nextSlide()" class="p-2 bg-gray-200 rounded-full hover:bg-brand-rose hover:text-white transition"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking & Contact Section -->
+    <section id="contact" class="py-20 bg-brand-dark text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                
+                <!-- Contact Info & Map -->
+                <div>
+                    <h2 class="font-serif text-4xl font-bold mb-2">Visit Us</h2>
+                    <p class="text-gray-400 mb-8">We are located in the heart of DHA Multan.</p>
+                    
+                    <div class="space-y-6 mb-8">
+                        <div class="flex items-start">
+                            <i class="fas fa-map-marker-alt text-brand-rose mt-1 mr-4 text-xl"></i>
+                            <div>
+                                <h4 class="font-bold text-lg">Address</h4>
+                                <p class="text-gray-300">Shop # 12, Commercial Arcade,<br>DHA Multan, Multan, Pakistan</p>
+                                <a href="https://maps.google.com" target="_blank" class="text-brand-rose text-sm underline mt-1 inline-block">Get Directions</a>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-phone-alt text-brand-rose mt-1 mr-4 text-xl"></i>
+                            <div>
+                                <h4 class="font-bold text-lg">Phone</h4>
+                                <p class="text-gray-300">0300-1514444</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-clock text-brand-rose mt-1 mr-4 text-xl"></i>
+                            <div>
+                                <h4 class="font-bold text-lg">Hours</h4>
+                                <p class="text-gray-300">Mon - Sun: 11:00 AM - 09:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Map Embed -->
+                    <div class="w-full h-64 bg-gray-700 rounded-lg overflow-hidden">
+                        <!-- Using a generic Multan embed centered near DHA area for demo purposes since specific Share Link requires API key logic or direct embed URL extraction -->
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27607.78426217469!2d71.498456!3d30.165432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x393b3be617a22e23%3A0x6a05897129532556!2sDHA%20Multan!5e0!3m2!1sen!2s!4v1700000000000!5m2!1sen!2s" 
+                            width="100%" 
+                            height="100%" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
+
+                <!-- Booking Form -->
+                <div class="bg-white text-brand-dark p-8 rounded-lg shadow-2xl">
+                    <h3 class="font-serif text-3xl font-bold mb-6">Book Appointment</h3>
+                    <form id="booking-form" onsubmit="handleBooking(event)">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                            <div>
+                                <label class="block text-sm font-bold mb-2">Name</label>
+                                <input type="text" required class="w-full p-3 bg-gray-50 border border-gray-300 rounded focus:outline-none focus:border-brand-rose" placeholder="Your Name">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-bold mb-2">Phone</label>
+                                <input type="tel" required class="w-full p-3 bg-gray-50 border border-gray-300 rounded focus:outline-none focus:border-brand-rose" placeholder="0300-XXXXXXX">
+                            </div>
+                        </div>
+                        
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                            <div>
+                                <label class="block text-sm font-bold mb-2">Service</label>
+                                <select class="w-full p-3 bg-gray-50 border border-gray-300 rounded focus:outline-none focus:border-brand-rose">
+                                    <option>Bridal Makeup</option>
+                                    <option>Party Makeup</option>
+                                    <option>Hair Styling / Cut</option>
+                                    <option>Skin / Facial</option>
+                                    <option>Nails / Mehndi</option>
+                                    <option>Other</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-bold mb-2">Date</label>
+                                <input type="date" required class="w-full p-3 bg-gray-50 border border-gray-300 rounded focus:outline-none focus:border-brand-rose">
+                            </div>
+                        </div>
+
+                        <div class="mb-6">
+                            <label class="block text-sm font-bold mb-2">Message</label>
+                            <textarea rows="3" class="w-full p-3 bg-gray-50 border border-gray-300 rounded focus:outline-none focus:border-brand-rose" placeholder="Any specific requirements?"></textarea>
+                        </div>
+
+                        <button type="submit" class="w-full bg-brand-dark text-white font-bold py-4 rounded hover:bg-brand-rose transition duration-300">
+                            Confirm Booking Request
+                        </button>
+                        <p class="text-xs text-gray-500 mt-3 text-center">We will call you to confirm your slot.</p>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-12 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <h2 class="font-serif text-2xl font-bold tracking-wider mb-6">LOOKS <span class="text-brand-rose text-sm font-sans block">Beauty Salon</span></h2>
+            
+            <div class="flex justify-center space-x-6 mb-8">
+                <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-facebook-f text-xl"></i></a>
+                <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-instagram text-xl"></i></a>
+                <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-tiktok text-xl"></i></a>
+            </div>
+
+            <div class="flex flex-wrap justify-center gap-6 text-sm text-gray-400 mb-8">
+                <a href="#home" class="hover:text-white">Home</a>
+                <a href="#services" class="hover:text-white">Services</a>
+                <a href="#gallery" class="hover:text-white">Gallery</a>
+                <a href="#contact" class="hover:text-white">Contact</a>
+                <a href="#" class="hover:text-white">Privacy Policy</a>
+            </div>
+
+            <p class="text-xs text-gray-600">&copy; 2024 LOOKS Beauty Salon DHA Multan. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript Logic -->
+    <script>
+        // Navbar Toggle Logic
+        const btn = document.getElementById('mobile-menu-btn');
+        const menu = document.getElementById('mobile-menu');
+
+        btn.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu on link click
+        document.querySelectorAll('#mobile-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                menu.classList.add('hidden');
+            });
+        });
+
+        // Navbar Scroll Effect
+        window.addEventListener('scroll', () => {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('shadow-md');
+                navbar.classList.remove('py-2');
+            } else {
+                navbar.classList.remove('shadow-md');
+                navbar.classList.add('py-2');
+            }
+        });
+
+        // Lightbox Logic
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImg = document.getElementById('lightbox-img');
+
+        function openLightbox(element) {
+            const img = element.querySelector('img');
+            lightboxImg.src = img.src;
+            lightbox.classList.remove('hidden');
+            document.body.style.overflow = 'hidden'; // Prevent scrolling
+        }
+
+        function closeLightbox() {
+            lightbox.classList.add('hidden');
+            document.body.style.overflow = 'auto'; // Re-enable scrolling
+        }
+
+        // Close lightbox on outside click
+        lightbox.addEventListener('click', (e) => {
+            if (e.target === lightbox) {
+                closeLightbox();
+            }
+        });
+
+        // Booking Form Handler
+        function handleBooking(e) {
+            e.preventDefault();
+            // In a real app, this would send data to a backend or via EmailJS
+            alert('Thank you for your request! \n\nWe have received your booking details. Our team will call you shortly at the provided number to confirm your appointment at LOOKS DHA Multan.');
+            document.getElementById('booking-form').reset();
+        }
+
+        // Simple Testimonial Slider Logic
+        let slideIndex = 0;
+        const track = document.getElementById('testimonial-track');
+        const slides = track.children;
+        const slideCount = slides.length;
+
+        function updateSlider() {
+            // Check screen width for responsiveness (1 slide mobile, 2 slides desktop)
+            const isMobile = window.innerWidth < 768;
+            const slideWidth = isMobile ? 100 : 50;
+            
+            track.style.transform = `translateX(-${slideIndex * slideWidth}%)`;
+        }
+
+        function nextSlide() {
+            const isMobile = window.innerWidth < 768;
+            const maxIndex = isMobile ? slideCount - 1 : slideCount - 2;
+            
+            if (slideIndex < maxIndex) {
+                slideIndex++;
+            } else {
+                slideIndex = 0;
+            }
+            updateSlider();
+        }
+
+        function prevSlide() {
+            if (slideIndex > 0) {
+                slideIndex--;
+            } else {
+                const isMobile = window.innerWidth < 768;
+                slideIndex = isMobile ? slideCount - 1 : slideCount - 2;
+            }
+            updateSlider();
+        }
+
+        // Handle resize for slider
+        window.addEventListener('resize', updateSlider);
+
+    </script>
+</body>
+</html>
