@@ -18,16 +18,8 @@ A premium beauty salon website for LOOKS Beauty Salon in DHA Multan, Pakistan.
 - Nail Artistry
 - Mehndi Design
 
-## Contact
-- **Phone:** 0300-1514444
-- **Address:** Shop #12, Commercial Arcade, DHA Multan
-- **Hours:** 11:00 AM - 09:00 PM (Daily)
-
 ## Technologies
 - HTML5, Tailwind CSS, JavaScript
 - Font Awesome Icons
 - Google Fonts
 - Google Maps API
-
-## Live Demo
-Visit: https://yourusername.github.io/looks-beauty-salon/
